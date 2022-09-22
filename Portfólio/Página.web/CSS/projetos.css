@@ -1,0 +1,80 @@
+
+body{
+    background: url(../imagens/img.portifolio2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 150px;
+
+}
+
+.img{
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#img_redonda{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.header ul{
+    height: 35px;
+    width: 65%;
+    font-size: 20px;
+    list-style-type: none;
+    margin-left: 13%;
+    padding-top: 10px;
+    padding-right: 100px;
+    background-color: rgb(10, 10, 46);
+
+
+}
+ 
+.header li{
+    color: rgb(10, 10, 46);
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: inline;
+    text-align: center;
+    margin-left: 20%;
+    background-color:  rgb(32, 128, 128);
+    height: 50px;
+    border-radius: 10%;
+}
+
+.sublinhado li a{
+    text-decoration: none;
+    color:  white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sublinhado ul li, a:hover, a:active{
+    text-decoration: none;
+    color:  rgb(10, 10, 46);
+    background-color:  rgb(10, 10, 46);
+    border-radius: 10%;
+
+}
+
+.meio{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+.nome{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+    margin-left: 5%;
+    background-color: rgb(32, 128, 128);
+    width: 20%;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
